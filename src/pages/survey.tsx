@@ -151,7 +151,7 @@ const Survey = () => {
         //   handleTopOption={handleTopOption}
         //   handleBottomOption={handleBottomOption}
         // />
-        <Styles.SurveyFormWrap backgroundImage={backgroundImage}>
+        <Styles.SurveyFormWrap>
           <ReactAudioPlayer src={soundTrack} autoPlay controls={false} loop={true} volume={0.05} />
           <Styles.Top>
             <Styles.SurveyDescriptionImage src={descriptionImage} />

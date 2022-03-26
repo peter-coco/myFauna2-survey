@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const SurveyFormWrap = styled.div<{ backgroundImage: string }>`
+export const SurveyFormWrap = styled.div<{ backgroundImage?: string }>`
   width: 100%;
   height: 100%;
   background-image: url(${(props) => props.backgroundImage});
