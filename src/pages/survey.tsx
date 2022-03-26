@@ -19,7 +19,7 @@ const Survey = () => {
   const soundTrack = '/sound/survey_sound.m4a';
 
   const [loadingStateToResult, setLoadingStateToResult] = useState(false);
-  const [timer, setTimer] = useState(1);
+  const [timer, setTimer] = useState(0);
   const [timerButton, setTimerButton] = useState(false);
   const [surveyNo, setSurveyNo] = useState(1);
   const [characterPoint, setCharacterPoint] = useState(0);
