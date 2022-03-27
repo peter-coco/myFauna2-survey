@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet-async';
 const MetaTag = (props) => {
   return (
     <Helmet>
-      <title>{props.title}</title>
+      {/* <title>{props.title}</title> */}
 
       <meta name="description" content={props.description} />
       <meta name="keywords" content={props.keywords} />
@@ -17,9 +17,6 @@ const MetaTag = (props) => {
       <meta property="og:url" content={props.url} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      {/* <meta name="twitter:title" content={props.title} /> */}
-      {/* <meta name="twitter:description" content={props.description} /> */}
-      {/* <meta name="twitter:image" content={props.imgsrc} /> */}
 
       <link rel="canonical" href={props.url} />
     </Helmet>
