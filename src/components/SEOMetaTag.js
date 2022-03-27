@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet-async';
 const MetaTag = (props) => {
   return (
     <Helmet>
-      {/* <title>{props.title}</title> */}
+      <title>{props.title}</title>
 
       <meta name="description" content={props.description} />
       <meta name="keywords" content={props.keywords} />
