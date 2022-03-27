@@ -86,13 +86,13 @@ const Home = () => {
   }, []);
   return (
     <HomeWrap>
-      <SEOMetaTag
+      {/* <SEOMetaTag
         title={'나랑 닮은 동물심리 테스트'}
         keywords={'심리테스트,동물,강아지,고양이,너구리,소,여우,곰,두더지,햄스터,토끼'}
         description={'간단한 심리테스트를 통해 당신의 동물 타입을 알아보세요 !!'}
         imgsrc={'https://ifh.cc/g/TF5B7H.png'}
         url={window.location.href}
-      />
+      /> */}
       <Description>나는 어떤 타입의 동물일까?</Description>
       <Logo src={logo} />
       {/* <Writer>REPLACE</Writer> */}
