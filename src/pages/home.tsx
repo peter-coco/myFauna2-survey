@@ -89,7 +89,7 @@ const Home = () => {
       <SEOMetaTag
         title={'나랑 닮은 동물심리 테스트'}
         description={'간단한 심리테스트를 통해 당신의 동물 타입을 알아보세요 !!'}
-        imgsrc={'/images/main.png'}
+        imgsrc={'https://ifh.cc/g/TF5B7H.png'}
         url={window.location.href}
       />
       <Description>나는 어떤 타입의 동물일까?</Description>
