@@ -4,7 +4,7 @@ export const setResultContents = (type: string): ResultContent => {
     case 'raccon':
       return {
         mainColor: '#AFBC8F',
-        logoImage: '/images/result_raccon.jpeg',
+        logoImage: '/images/result_m_raccon.gif',
         animalTitle: (
           <div>
             <span>호기심 많은 연구자</span>
@@ -48,7 +48,7 @@ export const setResultContents = (type: string): ResultContent => {
             <br /> 안녕!
           </div>
         ),
-        letterImage: '/images/result_paper_raccon.jpeg',
+        letterImage: '/images/result_paper.png',
         likeImageUrl: '/images/result_hamster.jpeg',
         likeDescription: (
           <div>
@@ -69,7 +69,7 @@ export const setResultContents = (type: string): ResultContent => {
     case 'fox':
       return {
         mainColor: '#87504B',
-        logoImage: '/images/result_fox.jpeg',
+        logoImage: '/images/result_m_fox.gif',
         animalTitle: (
           <div>
             <span>여유로운 휴식가</span>
@@ -112,7 +112,7 @@ export const setResultContents = (type: string): ResultContent => {
             <br /> 나만의 속도로 천천히, 천천히, 삶을 음미해보자. 좋은 하루 보내.
           </div>
         ),
-        letterImage: '/images/result_paper_fox.jpeg',
+        letterImage: '/images/result_paper.png',
         likeImageUrl: '/images/result_bear.jpeg',
         likeDescription: (
           <div>
@@ -134,7 +134,7 @@ export const setResultContents = (type: string): ResultContent => {
       return {
         mainColor: '#FFA985',
 
-        logoImage: '/images/result_dog.jpeg',
+        logoImage: '/images/result_m_dog.gif',
         animalTitle: (
           <div>
             <span>만인의 에너자이저</span>
@@ -176,7 +176,7 @@ export const setResultContents = (type: string): ResultContent => {
             <br /> 응원해 멍멍!
           </div>
         ),
-        letterImage: '/images/result_paper_dog.jpeg',
+        letterImage: '/images/result_paper.png',
         likeImageUrl: '/images/result_rabbit.jpeg',
         likeDescription: (
           <div>
@@ -198,7 +198,7 @@ export const setResultContents = (type: string): ResultContent => {
       return {
         mainColor: '#DF724B',
 
-        logoImage: '/images/result_bear.jpeg',
+        logoImage: '/images/result_m_bear.gif',
         animalTitle: (
           <div>
             <span>푸근한 대인배</span>
@@ -243,7 +243,7 @@ export const setResultContents = (type: string): ResultContent => {
             <br /> 그리고 친구들을 변함없이 아끼고 좋아하자. 응원할게!
           </div>
         ),
-        letterImage: '/images/result_paper_bear.jpeg',
+        letterImage: '/images/result_paper.png',
         likeImageUrl: '/images/result_fox.jpeg',
         likeDescription: (
           <div>
@@ -265,7 +265,7 @@ export const setResultContents = (type: string): ResultContent => {
       return {
         mainColor: '#87CBC5',
 
-        logoImage: '/images/result_cow.jpeg',
+        logoImage: '/images/result_m_cow.gif',
         animalTitle: (
           <div>
             <span>차분한 평화주의자</span>
@@ -308,7 +308,7 @@ export const setResultContents = (type: string): ResultContent => {
             <br /> 오늘 하루도 최선을 다하자. 늘 잘해왔듯이.
           </div>
         ),
-        letterImage: '/images/result_paper_cow.png',
+        letterImage: '/images/result_paper.png',
         likeImageUrl: '/images/result_hedgehog.jpeg',
         likeDescription: (
           <div>
@@ -329,7 +329,7 @@ export const setResultContents = (type: string): ResultContent => {
     case 'hamster':
       return {
         mainColor: '#FDAAC5',
-        logoImage: '/images/result_hamster.jpeg',
+        logoImage: '/images/result_m_hamster.gif',
         animalTitle: (
           <div>
             <span>사랑스러운 협동가 </span>
@@ -372,7 +372,7 @@ export const setResultContents = (type: string): ResultContent => {
             <br /> 기다리고 있을게. 연락해줘! 오늘도 힘내자!
           </div>
         ),
-        letterImage: '/images/result_paper_hamster.jpeg',
+        letterImage: '/images/result_paper.png',
         likeImageUrl: '/images/result_raccon.jpeg',
         likeDescription: (
           <div>
@@ -394,7 +394,7 @@ export const setResultContents = (type: string): ResultContent => {
       return {
         mainColor: '#DA9185',
 
-        logoImage: '/images/result_rabbit.jpeg',
+        logoImage: '/images/result_m_rabbit.gif',
         animalTitle: (
           <div>
             <span>개성강한 힙스터</span>
@@ -439,7 +439,7 @@ export const setResultContents = (type: string): ResultContent => {
             스트레스 관리 잘 하고 건강한 모습으로 보자.
           </div>
         ),
-        letterImage: '/images/result_paper_rabbit.jpeg',
+        letterImage: '/images/result_paper.png',
         likeImageUrl: '/images/result_dog.jpeg',
         likeDescription: (
           <div>
@@ -461,7 +461,7 @@ export const setResultContents = (type: string): ResultContent => {
       return {
         mainColor: '#959595',
 
-        logoImage: '/images/result_cat.jpeg',
+        logoImage: '/images/result_m_cat.gif',
         animalTitle: (
           <div>
             <span>은근한 최강자 </span>
@@ -507,7 +507,7 @@ export const setResultContents = (type: string): ResultContent => {
             <br /> 나만의 시간을 즐기자고.
           </div>
         ),
-        letterImage: '/images/result_paper_cat.jpeg',
+        letterImage: '/images/result_paper.png',
         likeImageUrl: '/images/result_cow.jpeg',
         likeDescription: (
           <div>
@@ -529,7 +529,7 @@ export const setResultContents = (type: string): ResultContent => {
       return {
         mainColor: '#8E7C52',
 
-        logoImage: '/images/result_hedgehog.jpeg',
+        logoImage: '/images/result_m_hedgehog.png',
         animalTitle: (
           <div>
             <span>고독한 사색가</span>
@@ -573,7 +573,7 @@ export const setResultContents = (type: string): ResultContent => {
             <br /> 어디서든 너를 응원하고 있을게. 기죽지 마.
           </div>
         ),
-        letterImage: '/images/result_paper_hedgehog.jpeg',
+        letterImage: '/images/result_paper.png',
         likeImageUrl: '/images/result_cow.jpeg',
         likeDescription: (
           <div>
@@ -595,7 +595,7 @@ export const setResultContents = (type: string): ResultContent => {
       return {
         mainColor: '#FFA985',
 
-        logoImage: '/images/result_dog.jpeg',
+        logoImage: '/images/result_m_dog.gif',
         animalTitle: (
           <div>
             <span>만인의 에너자이저</span>
@@ -637,7 +637,7 @@ export const setResultContents = (type: string): ResultContent => {
             <br /> 너도 그렇지? 늘 즐겁고, 행복한 하루를 보내길 바랄게. 응원해 멍멍!
           </div>
         ),
-        letterImage: '/images/result_paper_dog.jpeg',
+        letterImage: '/images/result_paper.png',
         likeImageUrl: '/images/result_rabbit.jpeg',
         likeDescription: (
           <div>

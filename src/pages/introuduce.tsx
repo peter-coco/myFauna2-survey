@@ -42,7 +42,7 @@ const Select = styled.div`
   cursor: pointer;
 `;
 const Introduce = () => {
-  const introLogo = '/images/intro.jpeg';
+  const introLogo = '/images/intro.png';
   return (
     <IntroduceWrap>
       <Logo src={introLogo} />

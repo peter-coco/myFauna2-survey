@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { firebaseDB } from '../config/firebase';
 import { Link } from 'react-router-dom';
+import SEOMetaTag from '../components/SEOMetaTag';
 
 const HomeWrap = styled.div`
   width: 100%;
@@ -70,7 +71,7 @@ const Select = styled.div`
 `;
 const Home = () => {
   const [participatorCount, setParticipatorCount] = useState(0);
-  const logo = '/images/main.jpeg';
+  const logo = '/images/main.png';
   useEffect(() => {
     const bucket = firebaseDB.collection('result');
 
@@ -85,6 +86,12 @@ const Home = () => {
   }, []);
   return (
     <HomeWrap>
+      <SEOMetaTag
+        title={'나랑 닮은 동물심리 테스트'}
+        description={'간단한 심리테스트를 통해 당신의 동물 타입을 알아보세요 !!'}
+        imgsrc={'/images/main.png'}
+        url={window.location.href}
+      />
       <Description>나는 어떤 타입의 동물일까?</Description>
       <Logo src={logo} />
       {/* <Writer>REPLACE</Writer> */}

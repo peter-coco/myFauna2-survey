@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import Loading from '../components/loading';
 import SurveyForm from '../components/surveyForm';
 import { setResultOnSurvey } from '../utils/setResultOnSurvey';
-import * as bgImage from '../asset/images/index';
 import { firebaseDB } from '../config/firebase';
 import * as Styles from '../components/surveyForm/index.style';
 import ReactAudioPlayer from 'react-audio-player';
