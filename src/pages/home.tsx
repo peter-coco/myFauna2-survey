@@ -50,7 +50,7 @@ const Select = styled.div`
   width: 220px;
   height: 68px;
   font-family: 'Jua';
-  background: #ffcaca;
+  background: #e9dcfb;
   border-radius: 30px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
