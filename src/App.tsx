@@ -25,7 +25,7 @@ function App() {
         <SEOMetaTag
           title={'나랑 닮은 동물 심리 테스트'}
           keywords={'심리테스트,공감,동물,강아지,고양이,너구리,소,여우,곰,두더지,햄스터,토끼'}
-          description={'간단한 심리테스트를 통해 당신의 동물 타입을 알아보세요 !!'}
+          description={'123123간단한 심리테스트를 통해 당신의 동물 타입을 알아보세요 !!'}
           imgsrc={'%PUBLIC_URL%/images/main.png'}
           url={'https://my-animal-type2-survey.netlify.app/'}
         />
