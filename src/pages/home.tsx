@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { firebaseDB } from '../config/firebase';
 import { Link } from 'react-router-dom';
 import SEOMetaTag from '../components/SEOMetaTag';
+import KakaoAdfit from '../components/kakaoAdfit';
 
 const HomeWrap = styled.div`
   width: 100%;
@@ -103,6 +104,7 @@ const Home = () => {
         <Participant>참여자 수</Participant>
         <Participant>{participatorCount}</Participant>
       </ParticipantWrap>
+      <KakaoAdfit />
     </HomeWrap>
   );
 };

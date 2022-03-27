@@ -238,7 +238,7 @@ const ResultType = ({ type = 'dog' }: { type?: string }) => {
         </Styles.ResultLetterTitle>
         <Styles.ResultLetter bgImage={resultLetterImage}>{resultLetter}</Styles.ResultLetter>
       </Styles.ResultLetterWrap>
-      <KakaoAdfit />
+      {/* <KakaoAdfit /> */}
       <Styles.ResultShareWrap>
         <Styles.ResultShareTitle>
           내 결과 공유하기
