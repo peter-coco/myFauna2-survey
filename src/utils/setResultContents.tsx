@@ -529,7 +529,7 @@ export const setResultContents = (type: string): ResultContent => {
       return {
         mainColor: '#8E7C52',
 
-        logoImage: '/images/result_m_hedgehog.png',
+        logoImage: '/images/result_m_hedgehog.gif',
         animalTitle: (
           <div>
             <span>고독한 사색가</span>
